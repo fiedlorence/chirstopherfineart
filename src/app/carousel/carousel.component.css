@@ -1,0 +1,12 @@
+#carousel{
+    width:auto;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-size: contain;
+    float: central;
+};
+
+#slides{
+    width: 1000px;
+}

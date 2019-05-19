@@ -1,0 +1,14 @@
+#carousel-container{
+  width: 100%;
+  background-color: white;
+  display: table;
+}
+
+#actual{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-size: contain;
+  position: relative;
+  float:central;
+}

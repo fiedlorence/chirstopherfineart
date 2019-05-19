@@ -1,0 +1,39 @@
+<!--- index.html -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="backgournd">
+  <div style="text-align:center">
+    <h1>
+      {{ title }}
+      <span id="art">{{ art }}</span>
+    </h1>
+    
+    <h2>
+      <span>
+          <a routerLink="/dashboard">HOME</a>
+      </span>
+
+      <span>&nbsp;&nbsp;&nbsp;</span>
+
+      <span id="contact">
+        <a routerLink="/contactUs">CONTACT</a>
+      </span>
+    </h2>
+
+    <hr/>
+  </div>
+
+
+  <!--<nav>
+    <a routerLink="/dashboard">Antique & Jewellery</a>
+    <a routerLink="/contactUs">Contact Us</a>
+    <a routerLink="/about">About</a>
+  </nav>-->
+
+  <router-outlet></router-outlet>
+
+  <div>
+    <app-footer></app-footer>
+  </div>
+</div>

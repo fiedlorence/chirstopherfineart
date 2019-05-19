@@ -1,0 +1,7 @@
+<div id="carousel">
+  <carousel >
+    <slide id="slides" *ngFor="let image of images; let index = index">
+      <img [src]=image.image alt="image slide" style="display: table-cell; width: auto; height: 600px;">
+    </slide>
+  </carousel>
+</div>
